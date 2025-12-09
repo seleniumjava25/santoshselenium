@@ -12,7 +12,7 @@ public class DragandDrop {
 
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		//driver.manage().window().maximize();
 		driver.get("https://www.globalsqa.com/demo-site/draganddrop/");
 	
