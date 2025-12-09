@@ -15,8 +15,8 @@ public class calendar {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver =new ChromeDriver();
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //admin:admin@(url)
 		driver.get("https://www.hotwire.com/?nid=N-TXA-WEL&did=&vid=V-TXA-WEL-DEF-1T-V1&cid=211ac7d596410fd745e1849fb66a8e7f&r=Y");
 		
