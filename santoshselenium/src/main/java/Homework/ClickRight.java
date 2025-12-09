@@ -15,9 +15,9 @@ public class ClickRight {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
 		driver.manage().window().maximize();
-	WebElement	ele=driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
+	WebElement	element=driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
        Actions ac =new Actions(driver);
-       ac.contextClick(ele).perform();
+       ac.contextClick(element).perform();
        
 	}
 	
