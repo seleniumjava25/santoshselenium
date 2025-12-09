@@ -9,7 +9,7 @@ public class authonticationAlert {
 		WebDriver driver =new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //admin:admin@(url)	
-		driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
+		driver.get("https://admin:dev_admin@the-internet.herokuapp.com/basic_auth");
 		driver.manage().window().maximize();
 		
 
